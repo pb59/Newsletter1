@@ -1,0 +1,101 @@
+/* Base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #2980b9;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #1a6390;
+}
+
+/* Hidden content styles */
+.hidden {
+    display: none;
+}
+
+/* Section padding */
+.section {
+    margin-bottom: 30px;
+}
